@@ -7,6 +7,7 @@ function whisper(string) {
 }
 
 function logShout() {
+<<<<<<< HEAD
   console.log ('HELLO');
 }
 
@@ -24,3 +25,13 @@ function sayHiToGrandma (string){
    }
 }
 
+=======
+  console.log ('HELLO')
+}
+
+function logWhisper(){
+  console.log ('hello')
+}
+
+function 
+>>>>>>> e06bc10ef5493f169d4d7588454a78fd62c4727a

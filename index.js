@@ -7,7 +7,6 @@ function whisper(string) {
 }
 
 function logShout() {
-<<<<<<< HEAD
   console.log ('HELLO');
 }
 
@@ -16,22 +15,16 @@ function logWhisper(){
 }
 
 function sayHiToGrandma (string){
-   if (string === 'hello'){
+   if (string.toLowerCase === string){
      return ('I can\'t hear you!');
-   } else if (string === 'HELLO') {
+    } 
+    
+    if (string.toUpperCase === string) {
      return ('YES INDEED!');
+     
    } else if (string === "I love you, Grandma.") {
      return ('I love you, too.');
    }
 }
 
-=======
-  console.log ('HELLO')
-}
 
-function logWhisper(){
-  console.log ('hello')
-}
-
-function 
->>>>>>> e06bc10ef5493f169d4d7588454a78fd62c4727a
